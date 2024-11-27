@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  .split-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left {
+    flex: 1;
+    background-color: black;
+    
+  }
+  
+  .right {
+    flex: 1;
+    background-image: url('pic.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
